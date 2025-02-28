@@ -554,7 +554,7 @@ class LabSimulator(QMainWindow):
         # Sample number widget that can dynamically add more
         self.sample_widget = QWidget()
         self.sample_layout = QVBoxLayout(self.sample_widget)
-        self.sample_layout.setContentsMargins(0, 0, 0, 0)
+        self.sample_layout.setContentsMargins(10, 0, 10, 0)
         
         # Initial sample input
         self.add_sample_input()
